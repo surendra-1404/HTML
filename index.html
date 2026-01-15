@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="author" content="SURENDRA">
+    <meta name="descrption" content="this is what iam learning in HTML">
+    <link rel="icon" href="download.png" type="image/x-icon">
+    <link rel="stylesheet" href="main.css" type="text/css">
+    <title>This is my first web page</title>
+
+</head>
+<body>  
+    <header>
+        <h1>My Goals For This Year</h1>
+        <nav>
+            <ul>
+                <li>
+                    <a href="#html">Learning HTML</a>
+                </li>
+                <li>
+                    <a href="#vacation">Planning a Vacation</a>
+                </li>
+                <li>
+                    <a href="#contact">Contact Me</a>
+                </li>
+            </ul>
+        </nav>
+    </header>  
+    <hr>
+    <main>
+    <article id="html">
+        <h2>I'm Ready to learn HTML</h2>
+        <p>This is my first web page.</p>
+        <section>
+            <h3>HTML5</h3>
+            <img src="images/htmllogo.png" alt="HTML5 LOGO" title="HTML LOGO" width="300" height="300">
+            <figure>
+                <figcaption>An Example of HTML Code</figcaption>
+                <p>
+                <code>&lt;h1&gt;Hello World!&lt;h1&gt;</code>
+                </p>
+            </figure>
+        </section>
+
+        <section>
+        <h3>Daily Schedule</h3>
+
+        <p>Let me tell you know how  </p>
+
+        <ol>
+            <li>I learn more about web dev.</li>
+            <li>I plan out my schedule.</li>
+            <li>I use resources from <a href="https://developer.mozilla.org/en-US/" target="_blank"><abbr title="Mozilla Developer Network">MDN.</abbr></a></li>
+        </ol>
+        <aside>
+            <details>
+                <summary>
+                    Guess the <mark>number of hours</mark> i study in a day.
+                </summary>
+                <p>I study for <time datetime="05:00">5 hours</time> daily.</p>
+            </details>
+        </aside>
+        <br>
+        <table>
+            <caption>My Daily Schedule</caption>
+            <thead>
+                <tr>
+                    <th>&nbsp;</th>
+                    <th>
+                        Time
+                    </th>
+                    <th>
+                        Activity
+                    </th>
+                </tr>
+            </thead>
+            <tbody>
+            <tr>
+                <th>Morning</th>
+                <td>
+                    <time datetime="09:00">9 AM</time> - <time datetime="11:00">11AM</time>
+                </td>
+                <td>
+                    study
+                </td>
+            </tr>
+            <tr>
+                <th>Afternoon</th>
+                <td>
+                    <time datetime="11:00">11 AM</time> - <time datetime="13:00">1 PM</time>
+                </td>
+                <td>
+                    Rest
+                </td>
+            </tr>
+            <tr>
+                <th>Afternoon</th>
+                <td>
+                    <time datetime="13:00">1 PM</time> - <time datetime="14:00">2 PM</time>
+                </td>
+                <td>
+                    Lunch
+                </td>
+            </tr>
+            <tr>
+                <th>Evening</th>
+                <td>
+                    <time datetime="14:00">2 PM</time> - <time datetime="17:00">5 PM</time>
+                </td>
+                <td>
+                    study
+                </td>
+            </tr>
+            <tr>
+                <th rowspan="2">Night</th>
+                <td rowspan="2">All other time</td>
+                <td>sleep</td>
+            </tr>
+            <tr>
+                <td>free fire</td>
+            </tr>
+            </tbody>
+        </table>
+        </section> 
+    </article>
+    <hr>
+    <article id="vacation">
+        <h2>I'm Also Planning To Vacation</h2>
+        <p>I'm studying very hard and i need a break.</p>
+        <p>I live in kurnool and i want to visit cold places.</p>
+        <section>
+            <h3>places i would like to visit</h3>
+            <ul>
+                <li>I heard good things about Araku.
+                    <figure>
+                        <img src="images/Araku.jpg" alt="Araku image" title="Araku" width="261" height="148" loading="lazy">
+                
+                        <figcaption>one of the beautiful place in Araku.
+                        </figcaption>
+                    </figure></li>
+            <li>I heard good things about manali.</li>
+            <li>I heard good things about Ooty</li>
+        </ul>
+            <address>
+            <a href="https://maps.google.com/maps?hl=en&gl=in&um=1&ie=UTF-8&fb=1&sa=X&ftid=0x3ba8bd8125f5f081:0xc27da63c1459dded">Place Which I Prefer</a>
+            </address>
+        <figure>
+            <img src="images/download.jpg" alt="vacation" title="vacation photo" width="247" height="146" loading="lazy">
+            <figcaption>It's Beautiful</figcaption>
+        </figure>
+        </section>
+        <section>
+            <h3>places i would like to Avoid</h3>
+            <p>places which are very hot.</p>
+            <dl>
+                <dt>Africa</dt>
+                <dd>It is very <em>Hot</em>!</dd>
+                <dt>Rajasthan</dt>
+                <dd>It is very <strong>Hot</strong>!</dd>
+                <dt>Rayalaseema</dt>
+                <dd>It is very <i><b>Hot</b></i>!</dd>
+            </dl>
+        </section>
+    </article>
+    <article id="contact">
+        <h2>Contact Me</h2>
+        <p>I'm ready to hear you</p>
+        <form action="https://httpbin.org/get" method="get">
+            <p>
+                <label for="FirstName">FirstName:</label>
+                <input type="text" name="FirstName" id="FirstName" placeholder="Enter FirstName" required autocomplete="on">
+            </p>
+            <p>
+                <label for="LastName">LastName:</label>
+                <input type="text" name="LastName" id="LastName" placeholder="Enter LastName">
+            </p>
+            <p>
+                <label for="password">Password:</label>
+                <input type="password" name="password" id="password" placeholder="Enter password">
+            </p>
+        </form>
+
+    </article>
+    </main>
+
+
+<hr>
+<footer>
+    &lt;&lt;&lt; &copy;<a href="about.html">Surendra</a> &gt;&gt;&gt;
+        <p>
+           <a href="#">Back to Top</a>
+        </p>
+</footer>
+</body>
+</html>
